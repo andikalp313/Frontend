@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Selector</title>
+
+    <style>
+      /* universal selector//  mauk ujian */
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      /* element selector */
+
+      h2 {
+        color: red;
+      }
+      /* id selector */
+      #avanza {
+        color: blue;
+      }
+
+      /* class selector
+      !importent diprioritaskan walaupun inline styles lebih prioritas //keluar ujian
+      semua style ngak cuma di warna */
+      .mobil {
+        color: rgb(0, 128, 9) !important;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>SELECTOR</h2>
+
+    <p id="avanza">Ini Avanza</p>
+    <p class="mobil">Ini Avanza</p>
+    <p class="mobil" style="color: brown">Ini Pajero</p>
+  </body>
+</html>
